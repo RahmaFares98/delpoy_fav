@@ -2,8 +2,6 @@ from django.urls import path
 from . import views
 
 
-handler404 = 'book_app.views.error_404'
-handler500 = 'book_app.views.error_500'
 
 urlpatterns = [
     path('', views.index ),
